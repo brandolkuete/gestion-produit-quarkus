@@ -1,6 +1,0 @@
-com\brandol\ressource\ProduitResource.class
-META-INF\panache-archive.marker
-com\brandol\domaine\Produit.class
-com\brandol\repository\ProduitRepository.class
-com\brandol\service\ProduitService.class
-com\brandol\service\ProductInterface.class
