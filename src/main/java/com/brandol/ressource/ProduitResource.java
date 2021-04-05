@@ -21,8 +21,11 @@ import javax.ws.rs.core.Response.Status;
 import com.brandol.domaine.Produit;
 import com.brandol.service.ProduitService;
 
+import io.quarkus.agroal.DataSource;
+
 @Path("/produits")
 @ApplicationScoped
+@DataSource("users")
 public class ProduitResource {
 
     @Inject
